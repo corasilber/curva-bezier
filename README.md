@@ -7,6 +7,7 @@ Para conseguir rodar o algoritmo é necessário possuir o Python instalado  junt
 `pip install Tkinter `
 
 Para rodar o algoritmo bastar executar na linha de comando
+
 `python curva_bezier.py`
 
 ## Estrutura do código
