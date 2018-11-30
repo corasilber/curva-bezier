@@ -32,3 +32,6 @@ O código é estruturado com os containers que equivalem as janelas de layout da
 * **plot_pixel()**: plota os pixels na posição informada
 * **reset_points()**: limpa os pontos da tela
 
+### Manual do Usuário
+
+Para visualizar o funcionamento do programa, veja o video 'Curva_Bezier_Funcionando'. E para visualizar o Manual do Usuário, abra o arquivo 'Manual do Usuario.pdf' 
