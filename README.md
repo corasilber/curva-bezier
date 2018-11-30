@@ -12,7 +12,7 @@ O código é estruturado com os containers que equivalem as janelas de layout da
 
 * **initialize_points()**: chama o método *getPoints()* que guarda a posição do local em que o usuário clica na tela, nas variavéis *x* e *y* 
 * **calculate_bezier()**: verifica se o usuário escolheu os 4 pontos na tela e chama o método *draw_cubic_bez*, caso contrário o programa exibe um pop-up informando quantos pontos o usuário ainda precisa selecionar na tela
-* **draw_cubic_bez()**: a variável *t* é um valor de parametrização para percorrer a curva e calcular os novos valores dos pontos da reta *Bezier* através de uma estrutura de repetição que varia o valor de *t* = 0 até *t* = 1, sempre acrescentando +0.001 ao valor de *t*. A variação do parâmetro *t* pode ser observada na figura abaixo:
+* **draw_cubic_bez()**: a variável *t* é um valor de parametrização para percorrer a curva e calcular os novos valores dos pontos da reta *Bezier* através de uma estrutura de repetição que varia o valor de *t* = 0 até *t* = 1, sempre acrescentando +0.001 ao valor de *t*. Esse método chama o *cubic_bezier_sum* enviando como parâmetro os pontos de controle, para calcular o somatório de *Bezier*. A variação do parâmetro *t* pode ser observada na figura abaixo:
 
 ![alt text](https://upload.wikimedia.org/wikipedia/commons/d/db/B%C3%A9zier_3_big.gif)
 
