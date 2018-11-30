@@ -10,6 +10,11 @@ Para rodar o algoritmo bastar executar na linha de comando
 
 `python curva_bezier.py`
 
+## Executável
+Para rodar o programa .exe, navegue nas pastas:
+
+`Execultavel/dist/curva_bezier/curva_bezier.exe`
+
 ## Estrutura do código
 
 O código é estruturado com os containers que equivalem as janelas de layout da interface. Os cálculos para a curva Bezier foram baseados e adaptados a partir do código implementado em https://github.com/NikolaiT/CunningCaptcha/blob/master/python_tests/bezier.py. Os métodos são:
