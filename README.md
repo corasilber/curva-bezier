@@ -17,7 +17,7 @@ Para rodar o programa .exe, navegue nas pastas:
 
 ## Estrutura do código
 
-O código é estruturado com os containers que equivalem as janelas de layout da interface. Os cálculos para a curva Bezier foram baseados e adaptados a partir do código implementado em https://github.com/NikolaiT/CunningCaptcha/blob/master/python_tests/bezier.py. Os métodos são:
+O código é estruturado com os containers que equivalem as janelas de layout da interface. Seu arquivo é *curva_bezier.py*. Os cálculos para a curva Bezier foram baseados e adaptados a partir do código implementado em https://github.com/NikolaiT/CunningCaptcha/blob/master/python_tests/bezier.py. Os métodos são:
 
 * **initialize_points()**: chama o método *getPoints()* que guarda a posição do local em que o usuário clica na tela, nas variavéis *x* e *y* 
 * **calculate_bezier()**: verifica se o usuário escolheu os 4 pontos na tela e chama o método *draw_cubic_bez*, caso contrário o programa exibe um pop-up informando quantos pontos o usuário ainda precisa selecionar na tela
